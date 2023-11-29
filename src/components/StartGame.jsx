@@ -9,7 +9,7 @@ function StartGame({toggle}){
             <img src="images/dices.png" alt="" />
             </div>
             <div className="content">
-                <h1 >DICE GAME</h1>
+                <h1 >GUESS THE DICE GAME</h1>
             <Button onClick={toggle}>Play Now</Button> 
             </div>
         </Container>
@@ -62,6 +62,11 @@ const Container  = styled.div`
         }
         Button{
             margin-top: 20px;
+        }
+    }
+    @media (max-width:980px) {
+        img{
+            width: 420px;
         }
     }
 `;
