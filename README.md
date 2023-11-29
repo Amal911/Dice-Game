@@ -1,3 +1,8 @@
+# Guess The Dice Game
+<img src= "./public/DiceGame.png"></img>
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
